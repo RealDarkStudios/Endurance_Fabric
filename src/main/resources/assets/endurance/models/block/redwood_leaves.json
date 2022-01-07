@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "endurance:block/redwood_leaves"
+  }
+}

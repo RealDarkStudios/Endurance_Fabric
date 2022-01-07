@@ -1,0 +1,29 @@
+{
+  "itemGroup.endurance.items": "Endurance Items",
+  "itemGroup.endurance.blocks": "Endurance Blocks",
+  "itemGroup.endurance.ores_and_ingots": "Endurance Ores and Ingots",
+
+  "item.endurance.admin_sword": "\u00A74\u00A7lAdmin Sword",
+
+  "block.endurance.redwood_log": "Redwood Log",
+  "block.endurance.redwood_wood": "Redwood Wood",
+  "block.endurance.redwood_planks": "Redwood Planks",
+  "block.endurance.stripped_redwood_log": "Stripped Redwood Log",
+  "block.endurance.stripped_redwood_wood": "Stripped Redwood Wood",
+  "block.endurance.redwood_leaves": "Redwood Leaves",
+  "block.endurance.redwood_sapling": "Redwood Sapling",
+
+  "block.endurance.tin_ore": "Tin Ore",
+  "item.endurance.raw_tin": "Raw Tin",
+  "item.endurance.tin_ingot": "Tin Ingot",
+  "item.endurance.tin_nugget": "Tin Nugget",
+
+  "item.endurance.bandage": "Bandage",
+  "tooltip.endurance.bandage": "Press \u00A7eSHIFT\u00A7r for more info.",
+
+  "item.endurance.medkit": "Medkit",
+  "tooltip.endurance.medkit": "Press \u00A7eSHIFT\u00A7r for more info.",
+
+  "blockEntity.endurance.medical_upgrader.name": "Medical Upgrader Device",
+  "block.endurance.medical_upgrader": "Medical Upgrader"
+}

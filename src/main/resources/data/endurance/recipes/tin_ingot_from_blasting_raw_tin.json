@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "endurance:raw_tin"
+  },
+  "result": "endurance:tin_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

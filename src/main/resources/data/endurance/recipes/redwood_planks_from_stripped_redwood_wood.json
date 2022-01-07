@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "redwood_planks",
+  "ingredients": [
+    {
+      "item": "endurance:stripped_redwood_wood"
+    }
+  ],
+  "result": {
+    "item": "endurance:redwood_planks",
+    "count": 4
+  }
+}

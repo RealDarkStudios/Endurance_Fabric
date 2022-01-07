@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "endurance:medkit"
+    },
+    "title": "Medkit",
+    "description": "Upgrade to a medkit",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "endurance:bandage",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endurance:medkit"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

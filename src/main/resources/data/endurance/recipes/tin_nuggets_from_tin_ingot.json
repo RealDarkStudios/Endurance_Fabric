@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "tin_nugget",
+  "ingredients": [
+    {
+      "item": "endurance:tin_ingot"
+    }
+  ],
+  "result": {
+    "item": "endurance:tin_nugget",
+    "count": 9
+  }
+}

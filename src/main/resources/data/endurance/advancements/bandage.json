@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "endurance:bandage"
+    },
+    "title": "Bandage",
+    "description": "Use a Bandage",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "endurance:textures/block/stripped_redwood_log.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "endurance:bandage"
+          ]
+        }
+      }
+    }
+  }
+}

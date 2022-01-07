@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ll",
+    "ll"
+  ],
+  "key": {
+    "l": {
+      "item": "endurance:stripped_redwood_log"
+    }
+  },
+  "result": {
+    "item": "endurance:stripped_redwood_wood",
+    "count": 3
+  }
+}

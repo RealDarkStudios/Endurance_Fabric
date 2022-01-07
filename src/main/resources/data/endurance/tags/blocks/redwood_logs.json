@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "endurance:redwood_log",
+    "endurance:redwood_wood",
+    "endurance:stripped_redwood_log",
+    "endurance:stripped_redwood_wood"
+  ]
+}
