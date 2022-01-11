@@ -9,10 +9,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.thedarkgamer.endurance.EnduranceMod;
-import net.thedarkgamer.endurance.block.custom.MedicalUpgraderBlock;
 import net.thedarkgamer.endurance.block.custom.ModSaplingBlock;
 import net.thedarkgamer.endurance.item.ModItemGroups;
-import net.thedarkgamer.endurance.world.features.ModConfiguredFeatures;
 import net.thedarkgamer.endurance.world.features.tree.RedwoodSaplingGenerator;
 
 public class ModBlocks {
@@ -28,9 +26,6 @@ public class ModBlocks {
 
     //Ores
     public static final Block TIN_ORE = registerBlock("tin_ore", new Block(FabricBlockSettings.copy(Blocks.IRON_ORE)), new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroups.ORES_AND_INGOTS));
-
-    //BlockEntities
-    //public static final Block MEDICAL_UPGRADER = registerBlock("medical_upgrader", new MedicalUpgraderBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)), new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroups.ORES_AND_INGOTS));
 
     private static Block registerBlock(String name, Block block, FabricItemSettings settings) {
         registerBlockItem(name, block, settings);
