@@ -6,7 +6,6 @@ import net.thedarkgamer.endurance.config.ModConfigs;
 import net.thedarkgamer.endurance.item.ModItems;
 import net.thedarkgamer.endurance.registries.ModRegistries;
 import net.thedarkgamer.endurance.util.ModLootTableModifiers;
-import net.thedarkgamer.endurance.util.ModRenderHelper;
 import net.thedarkgamer.endurance.world.features.ModConfiguredFeatures;
 import net.thedarkgamer.endurance.world.gen.ModWorldGen;
 import org.apache.logging.log4j.LogManager;
