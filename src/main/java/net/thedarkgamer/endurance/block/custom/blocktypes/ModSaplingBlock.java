@@ -1,4 +1,4 @@
-package net.thedarkgamer.endurance.block.custom;
+package net.thedarkgamer.endurance.block.custom.blocktypes;
 
 import net.minecraft.block.SaplingBlock;
 import net.minecraft.block.sapling.SaplingGenerator;

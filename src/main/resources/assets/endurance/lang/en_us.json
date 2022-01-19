@@ -4,6 +4,7 @@
   "itemGroup.endurance.ores_and_ingots": "Endurance Ores and Ingots",
 
   "item.endurance.admin_sword": "\u00A74\u00A7lAdmin Sword",
+  "item.endurance.admin_feeder": "\u00A74\u00A7lAdmin Feeder",
 
   "block.endurance.redwood_log": "Redwood Log",
   "block.endurance.redwood_wood": "Redwood Wood",
@@ -12,6 +13,12 @@
   "block.endurance.stripped_redwood_wood": "Stripped Redwood Wood",
   "block.endurance.redwood_leaves": "Redwood Leaves",
   "block.endurance.redwood_sapling": "Redwood Sapling",
+  "block.endurance.redwood_slab": "Redwood Slab",
+  "block.endurance.redwood_stairs": "Redwood Stairs",
+  "block.endurance.redwood_fence": "Redwood Fence",
+  "block.endurance.redwood_fence_gate": "Redwood Fence Gate",
+  "block.endurance.redwood_button": "Redwood Button",
+  "block.endurance.redwood_pressure_plate": "Redwood Pressure Plate",
 
   "block.endurance.tin_ore": "Tin Ore",
   "item.endurance.raw_tin": "Raw Tin",

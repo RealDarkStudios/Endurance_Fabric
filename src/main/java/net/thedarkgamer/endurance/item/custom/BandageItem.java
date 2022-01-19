@@ -1,5 +1,6 @@
 package net.thedarkgamer.endurance.item.custom;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
@@ -18,10 +19,23 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class BandageItem extends Item {
-    public BandageItem(Settings settings) {
+    public BandageItem(FabricItemSettings settings) {
         super(settings);
     }
 
+    /*
+    The Bandage is an Item that can be configured under .minecraft/config/enduranceconfig.properties.
+    It's configurable properties are:
+
+    bandage.allow - Allow usage of Bandage
+    bandage.amounts.heal - Amount to heal (1 heart is 2 health)
+    bandage.amounts.cooldown - Bandage Cooldown (1 Second is 20 Ticks)
+    bandage.warnings.creative - Have Creative Warnings?
+    bandage.warnings.survival - Have Survival Warnings?
+    bandage.use.accidental.warning - Warn player about accidental use?
+    bandage.use.accidental.prevention - Prevent player from accidentally using Bandage?
+    bandage.use.accidental.prevention.max - Prevent player from using Bandage over health (1 heart is 2 health)
+    */
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (ModConfigs.ALLOW_BANDAGE_USE) {
@@ -30,7 +44,7 @@ public class BandageItem extends Item {
                     float userHealth = user.getHealth();
                     if (userHealth <= (20 - ModConfigs.BANDAGE_HEAL_AMOUNT)) {
                         user.heal(ModConfigs.BANDAGE_HEAL_AMOUNT);
-                        user.getItemCooldownManager().set(this, ModConfigs.BANDAGE_COOLDOWN_AMOUNT);
+                        user.getItemCooldownManager().set(this.asItem(), ModConfigs.BANDAGE_COOLDOWN_AMOUNT);
                         user.getInventory().getMainHandStack().setCount(user.getInventory().getMainHandStack().getCount() - 1);
                         if (ModConfigs.BANDAGE_LOG_USE) {
                             EnduranceMod.LOGGER.info("Bandage used by " + user.getDisplayName() + " on " + userHealth + " health!");

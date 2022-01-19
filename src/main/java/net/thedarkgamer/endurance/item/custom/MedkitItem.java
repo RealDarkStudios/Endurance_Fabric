@@ -22,6 +22,19 @@ public class MedkitItem extends Item {
         super(settings);
     }
 
+    /*
+    The Medkit is an Item that can be configured under .minecraft/config/enduranceconfig.properties.
+    It's configurable properties are:
+
+    medkit.allow - Allow usage of Medkit
+    medkit.amounts.heal - Amount to heal (1 heart is 2 health)
+    medkit.amounts.cooldown - Medkit Cooldown (1 Second is 20 Ticks)
+    medkit.warnings.creative - Have Creative Warnings?
+    medkit.warnings.survival - Have Survival Warnings?
+    medkit.use.accidental.warning - Warn player about accidental use?
+    medkit.use.accidental.prevention - Prevent player from accidentally using Medkit?
+    medkit.use.accidental.prevention.max - Prevent player from using Medkit over health (1 heart is 2 health)
+    */
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         if (ModConfigs.ALLOW_MEDKIT_USE) {

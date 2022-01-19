@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "endurance:redwood_log"
+    },
+    "title": "Endurance",
+    "description": "Thanks for downloading!",
+    "background": "endurance:textures/block/stripped_redwood_log.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

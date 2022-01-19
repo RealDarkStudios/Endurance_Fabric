@@ -3,13 +3,14 @@
     "icon": {
       "item": "endurance:bandage"
     },
-    "title": "Bandage",
-    "description": "Use a Bandage",
+    "title": "Use A Bandage",
+    "description": "Use a Bandage to heal yourself",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "background": "endurance:textures/block/stripped_redwood_log.png"
+    "hidden": false
   },
+  "parent": "endurance:endurance",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

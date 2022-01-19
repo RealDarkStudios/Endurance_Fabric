@@ -1,0 +1,20 @@
+{
+  "type": "endurance:medical_upgrader",
+  "ingredients": [
+    {
+      "item": "endurance:bandage"
+    },
+    {
+      "item": "endurance:tin_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "output": {
+    "item": "endurance:medkit"
+  }
+}

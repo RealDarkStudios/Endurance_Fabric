@@ -31,31 +31,7 @@ public class ModLootTableModifiers {
 
     public static void modifyLootTables() {
         LootTableLoadingCallback.EVENT.register((resourceManager, manager, id, supplier, setter) -> {
-            if (OAK_LOG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder().rolls(ConstantLootNumberProvider.create(1)).withCondition(new MatchToolLootCondition(new ItemPredicate(ModTags.Items.NON_LOG_MINEABLE, null, null, null, null, null, null, null))).with(ItemEntry.builder(Items.OAK_LOG)).withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                EnduranceMod.LOGGER.info("The \"NullPointerException: Cannot invoke net.minecraft.predicate.NumberRange$IntRange.test(int)\" error is NORMAL, this is what causes no logs to drog from data/endurance/tags/items/non_log_mineable.json");
-                supplier.withPool(poolBuilder.build());
-            }
-            if (BIRCH_LOG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder().rolls(ConstantLootNumberProvider.create(1)).withCondition(new MatchToolLootCondition(new ItemPredicate(ModTags.Items.NON_LOG_MINEABLE, null, null, null, null, null, null, null))).with(ItemEntry.builder(Items.BIRCH_LOG)).withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                supplier.withPool(poolBuilder.build());
-            }
-            if (JUNGLE_LOG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder().rolls(ConstantLootNumberProvider.create(1)).withCondition(new MatchToolLootCondition(new ItemPredicate(ModTags.Items.NON_LOG_MINEABLE, null, null, null, null, null, null, null))).with(ItemEntry.builder(Items.JUNGLE_LOG)).withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                supplier.withPool(poolBuilder.build());
-            }
-            if (ACACIA_LOG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder().rolls(ConstantLootNumberProvider.create(1)).withCondition(new MatchToolLootCondition(new ItemPredicate(ModTags.Items.NON_LOG_MINEABLE, null, null, null, null, null, null, null))).with(ItemEntry.builder(Items.ACACIA_LOG)).withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                supplier.withPool(poolBuilder.build());
-            }
-            if (DARK_OAK_LOG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder().rolls(ConstantLootNumberProvider.create(1)).withCondition(new MatchToolLootCondition(new ItemPredicate(ModTags.Items.NON_LOG_MINEABLE, null, null, null, null, null, null, null))).with(ItemEntry.builder(Items.DARK_OAK_LOG)).withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                supplier.withPool(poolBuilder.build());
-            }
-            if (SPRUCE_LOG_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder().rolls(ConstantLootNumberProvider.create(1)).withCondition(new MatchToolLootCondition(new ItemPredicate(ModTags.Items.NON_LOG_MINEABLE, null, null, null, null, null, null, null))).with(ItemEntry.builder(Items.SPRUCE_LOG)).withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(1f, 1f)).build());
-                supplier.withPool(poolBuilder.build());
-            }
+
         });
     }
 

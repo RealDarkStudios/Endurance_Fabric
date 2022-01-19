@@ -2,6 +2,12 @@
   "replace": false,
   "values": [
     "#endurance:redwood_logs",
-    "endurance:redwood_planks"
+    "endurance:redwood_planks",
+    "endurance:redwood_slab",
+    "endurance:redwood_stairs",
+    "endurance:redwood_fence",
+    "endurance:redwood_fence_gate",
+    "endurance:redwood_button",
+    "endurance:redwood_pressure_plate"
   ]
 }
