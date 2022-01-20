@@ -1,0 +1,37 @@
+{
+  "parent": "endurance:main/root",
+  "display": {
+    "icon": {
+      "item": "endurance:bandage"
+    },
+    "title": {
+      "translate": "advancements.main.bandage.title"
+    },
+    "description": {
+      "translate": "advancements.main.bandage.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_bandage": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endurance:bandage"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_bandage"
+    ]
+  ]
+}

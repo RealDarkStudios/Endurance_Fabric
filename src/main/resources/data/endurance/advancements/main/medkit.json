@@ -1,0 +1,37 @@
+{
+  "parent": "endurance:main/bandage",
+  "display": {
+    "icon": {
+      "item": "endurance:medkit"
+    },
+    "title": {
+      "translate": "advancements.main.medkit.title"
+    },
+    "description": {
+      "translate": "advancements.main.medkit.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_medkit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endurance:medkit"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_medkit"
+    ]
+  ]
+}

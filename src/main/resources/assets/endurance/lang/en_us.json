@@ -1,4 +1,11 @@
 {
+  "advancements.main.root.title": "Endurance for Fabric 1.17.1",
+  "advancements.main.root.description": "Thanks for downloading Endurance!",
+  "advancements.main.bandage.title": "Get a Bandage",
+  "advancements.main.bandage.description": "Find a bandage",
+  "advancements.main.medkit.title": "Medkit",
+  "advancements.main.medkit.description": "Craft or Find a Medkit",
+
   "itemGroup.endurance.items": "Endurance Items",
   "itemGroup.endurance.blocks": "Endurance Blocks",
   "itemGroup.endurance.ores_and_ingots": "Endurance Ores and Ingots",

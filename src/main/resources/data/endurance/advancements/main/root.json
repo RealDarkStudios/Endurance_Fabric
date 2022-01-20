@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "endurance:redwood_log"
+    },
+    "title": {
+      "translate": "advancements.main.root.title"
+    },
+    "description": {
+      "translate": "advancements.main.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "endurance:textures/gui/advancements/backgrounds/main.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
