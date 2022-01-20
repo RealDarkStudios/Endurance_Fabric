@@ -1,0 +1,37 @@
+{
+  "parent": "endurance:main/bandage",
+  "display": {
+    "icon": {
+      "item": "endurance:medical_upgrader"
+    },
+    "title": {
+      "translate": "advancements.main.medical_upgrader.title"
+    },
+    "description": {
+      "translate": "advancements.main.medical_upgrader.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "medical_upgrader": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "endurance:medical_upgrader"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "medical_upgrader"
+    ]
+  ]
+}

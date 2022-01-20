@@ -1,0 +1,33 @@
+{
+  "parent": "endurance:structures/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "title": {
+      "translate": "advancements.structure.find_darkness_shrine.title"
+    },
+    "description": {
+      "translate": "advancements.structure.find_darkness_shrine.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "darkness_shrine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endurance:darkness_shrine"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "darkness_shrine"
+    ]
+  ]
+}

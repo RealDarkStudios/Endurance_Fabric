@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "title": {
+      "translate": "advancements.structure.root.title"
+    },
+    "description": {
+      "translate": "advancements.structure.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "endurance:textures/gui/advancements/backgrounds/structures.png"
+  },
+  "criteria": {
+    "endurance:redwood_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endurance:redwood_house"
+        }
+      }
+    },
+    "endurance:darkness_shrine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endurance:darkness_shrine"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "endurance:redwood_house",
+      "endurance:darkness_shrine"
+    ]
+  ]
+}

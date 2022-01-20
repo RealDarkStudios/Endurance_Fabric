@@ -1,0 +1,33 @@
+{
+  "parent": "endurance:structures/root",
+  "display": {
+    "icon": {
+      "item": "endurance:redwood_log"
+    },
+    "title": {
+      "translate": "advancements.structure.find_redwood_house.title"
+    },
+    "description": {
+      "translate": "advancements.structure.find_redwood_house.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "redwood_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "endurance:redwood_house"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "redwood_house"
+    ]
+  ]
+}
