@@ -19,6 +19,8 @@
   "block.endurance.redwood_fence_gate": "Redwood Fence Gate",
   "block.endurance.redwood_button": "Redwood Button",
   "block.endurance.redwood_pressure_plate": "Redwood Pressure Plate",
+  "block.endurance.redwood_door": "Redwood Door",
+  "block.endurance.redwood_trapdoor": "Redwood Trapdoor",
 
   "block.endurance.tin_ore": "Tin Ore",
   "item.endurance.raw_tin": "Raw Tin",
@@ -32,5 +34,7 @@
   "tooltip.endurance.medkit": "Press \u00A7eSHIFT\u00A7r for more info.",
 
   "blockEntity.endurance.medical_upgrader.name": "Medical Upgrader Device",
-  "block.endurance.medical_upgrader": "Medical Upgrader"
+  "block.endurance.medical_upgrader": "Medical Upgrader",
+
+  "block.endurance.reactor_core": "Nether Reactor Core (Secret)"
 }
