@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "t t",
+    "t t"
+  ],
+  "key": {
+    "t": {
+      "item": "endurance:tin_ingot"
+    }
+  },
+  "result": {
+    "item": "endurance:tin_leggings"
+  }
+}
