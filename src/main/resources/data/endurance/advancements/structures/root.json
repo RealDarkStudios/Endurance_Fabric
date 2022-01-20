@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:polished_blackstone"
+      "item": "minecraft:structure_block"
     },
     "title": {
       "translate": "advancements.structure.root.title"
@@ -35,7 +35,9 @@
   },
   "requirements": [
     [
-      "endurance:redwood_house",
+      "endurance:redwood_house"
+    ],
+    [
       "endurance:darkness_shrine"
     ]
   ]

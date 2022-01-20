@@ -11,6 +11,8 @@
   "advancements.main.tin_ingot.description": "Obtain a Tin Ingot",
   "advancements.main.medical_upgrader.title": "Upgrading Medical Equipment",
   "advancements.main.medical_upgrader.description": "Have an Medical Upgrader",
+  "advancements.main.tin_armor.title": "Tin Armor",
+  "advancements.main.tin_armor.description": "Make some Tin Armor!",
 
   "advancements.structure.root.title": "Endurance Structures",
   "advancements.structure.root.description": "Find any structure from Endurance",
@@ -46,6 +48,10 @@
   "item.endurance.raw_tin": "Raw Tin",
   "item.endurance.tin_ingot": "Tin Ingot",
   "item.endurance.tin_nugget": "Tin Nugget",
+  "item.endurance.tin_helmet": "Tin Helmet",
+  "item.endurance.tin_chestplate": "Tin Chestplate",
+  "item.endurance.tin_leggings": "Tin Leggings",
+  "item.endurance.tin_boots": "Tin Boots",
 
   "item.endurance.bandage": "Bandage",
   "tooltip.endurance.bandage": "Press \u00A7eSHIFT\u00A7r for more info.",

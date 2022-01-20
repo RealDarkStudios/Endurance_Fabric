@@ -9,7 +9,7 @@
     "endurance:redwood_fence_gate",
     "endurance:redwood_button",
     "endurance:redwood_pressure_plate",
-    "endurance:door",
-    "endurance:trapdoor"
+    "endurance:redwood_door",
+    "endurance:redwood_trapdoor"
   ]
 }

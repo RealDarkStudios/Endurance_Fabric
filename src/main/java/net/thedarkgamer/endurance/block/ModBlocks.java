@@ -33,8 +33,9 @@ public class ModBlocks {
     public static final Block REDWOOD_DOOR = registerBlock("redwood_door", new ModDoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR)), new FabricItemSettings().group(ModItemGroups.BLOCKS).rarity(Rarity.COMMON));
     public static final Block REDWOOD_TRAPDOOR = registerBlock("redwood_trapdoor", new ModTrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR)), new FabricItemSettings().group(ModItemGroups.BLOCKS).rarity(Rarity.COMMON));
 
-    //Ores
+    //Tin
     public static final Block TIN_ORE = registerBlock("tin_ore", new Block(FabricBlockSettings.copy(Blocks.IRON_ORE)), new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroups.ORES_AND_INGOTS));
+    public static final Block TIN_BLOCK = registerBlock("tin_block", new Block(FabricBlockSettings.copy(Blocks.IRON_BLOCK)), new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroups.ORES_AND_INGOTS));
 
     //BlockEntities
     public static final Block MEDICAL_UPGRADER = registerBlock("medical_upgrader", new MedicalUpgraderBlock(FabricBlockSettings.copy(Blocks.IRON_BLOCK)), new FabricItemSettings().rarity(Rarity.COMMON).group(ModItemGroups.BLOCKS));
